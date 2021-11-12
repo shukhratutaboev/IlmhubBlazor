@@ -1,0 +1,44 @@
+@page "/chapters/{Id}"
+@inject HttpClient Http
+<br>
+
+@if (problems == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    int m = 0;
+    <div class="list-group">
+    <a href=@strId(Id) class="list-group-item list-group-item-action active">
+        Chapter @Id
+    </a>
+    @foreach (var problem in problems)
+    {
+        if(problem.Chapter.ToString() == Id)
+        {
+            m++;
+            <a href=@problem.getLink() class="list-group-item list-group-item-action">@m. @problem.Title</a>
+        }
+    }
+    </div>
+    @if (m == 0)
+    {
+        <a href=chapters class="list-group-item list-group-item-action">Coming soon...</a>
+    }
+}
+
+@code {
+    private Problem[] problems;
+    protected override async Task OnInitializedAsync()
+    {
+        problems = await Http.GetFromJsonAsync<Problem[]>($"sample-data/problems.json");
+    }
+    public class Problem
+    {
+        public string getLink() => $"https://oj.ilmhub.uz/problem/{this.Link}";
+        public string Title { get; set; }
+        public string Link { get; set; }
+        public int Chapter { get; set; }
+    }
+}
