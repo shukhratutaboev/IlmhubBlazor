@@ -35,6 +35,16 @@
     "chapter" : 2
   },
   {
+    "title": "4️⃣ burchak yuzi (int)",
+    "link": "12",
+    "chapter" : 2
+  },
+  {
+    "title": "4️⃣ burchak yuzi (double)",
+    "link": "13",
+    "chapter" : 2
+  },
+  {
     "title": "Yaxlitlang！",
     "link": "14",
     "chapter" : 2
@@ -48,5 +58,75 @@
     "title": "A ➡ a",
     "link": "16",
     "chapter" : 2
+  },
+  {
+    "title": "Kalendarcha",
+    "link": "7",
+    "chapter": 3
+  },
+  {
+    "title": "Karra jadvali",
+    "link": "8",
+    "chapter": 3
+  },
+  {
+    "title": "5 Faktorial",
+    "link": "9",
+    "chapter": 3
+  },
+  {
+    "title": "10 ta Fibonacci",
+    "link": "10",
+    "chapter": 3
+  },
+  {
+    "title": "‼️‼️‼️",
+    "link": "17",
+    "chapter" : 3
+  },
+  {
+    "title": "Sekundlar ⏳",
+    "link": "18",
+    "chapter" : 3
+  },
+  {
+    "title": "Sonning markazi",
+    "link": "19",
+    "chapter" : 3
+  },
+  {
+    "title": "Yandex taxi",
+    "link": "20",
+    "chapter" : 3
+  },
+  {
+    "title": "Doiraning yuzi",
+    "link": "21",
+    "chapter" : 3
+  },
+  {
+    "title": "Twenties?",
+    "link": "22",
+    "chapter" : 3
+  },
+  {
+    "title": "Alifbo 🤔",
+    "link": "23",
+    "chapter" : 3
+  },
+  {
+    "title": "Even ↔️ Odd",
+    "link": "24",
+    "chapter" : 3
+  },
+  {
+    "title": "Katta son",
+    "link": "25",
+    "chapter" : 3
+  },
+  {
+    "title": "Bo'linma | Qoldiq",
+    "link": "26",
+    "chapter" : 3
   }
 ]
